@@ -1,6 +1,6 @@
 # CNN Crop and Weed Classification
 
-Study project for roll number 43. The project trains a binary Convolutional Neural Network to classify a single seedling image as **Crop** or **Weed**.
+Study project for roll numbers 41-45. The project trains a binary Convolutional Neural Network to classify a single seedling image as **Crop** or **Weed**.
 
 ## Fastest way to run
 
@@ -55,7 +55,7 @@ See `docs/Dataset_Sources.md` for the official source, mirrors, fallback, and da
 
 ## Reproducibility
 
-- Random seed: 43
+- Random seed: 42
 - Split: 70% training, 15% validation, 15% testing
 - Input: 128 x 128 RGB
 - Optimizer: Adam

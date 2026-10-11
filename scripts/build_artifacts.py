@@ -43,7 +43,7 @@ def build_notebook() -> None:
             """
             # CNN Crop and Weed Classification
 
-            **Roll number:** 43  
+            **Assigned roll numbers:** 41-45  
             **Task:** Binary image classification with TensorFlow and Keras
 
             This notebook downloads the V2 Plant Seedlings Dataset, maps its 12 plant species to **Crop** or **Weed**, creates reproducible train/validation/test splits, trains a custom CNN, and saves the graphs and metrics required for the report and presentation.
@@ -82,7 +82,7 @@ def build_notebook() -> None:
             from sklearn.model_selection import train_test_split
             from sklearn.utils.class_weight import compute_class_weight
 
-            SEED = 43
+            SEED = 42
             random.seed(SEED)
             np.random.seed(SEED)
             tf.keras.utils.set_random_seed(SEED)
@@ -687,7 +687,7 @@ def build_docx() -> None:
 
     footer = section.footer.paragraphs[0]
     footer.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    footer_run = footer.add_run("CNN Crop and Weed Classification  |  Roll Number 43")
+    footer_run = footer.add_run("CNN Crop and Weed Classification  |  Roll Numbers 41-45")
     footer_run.font.size = Pt(8)
     footer_run.font.color.rgb = RGBColor(89, 89, 89)
 
@@ -703,7 +703,7 @@ def build_docx() -> None:
     doc.add_paragraph()
     info = doc.add_paragraph()
     info.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    info.add_run("Study Project  |  Roll Number 43\n").bold = True
+    info.add_run("Study Project  |  Roll Numbers 41-45\n").bold = True
     info.add_run("Deep Learning  |  B Tech IV Year I Semester")
     doc.add_paragraph()
     opening = doc.add_paragraph()
@@ -722,7 +722,7 @@ def build_docx() -> None:
             ["Task", "Binary image classification"],
             ["Classes", "Crop and Weed"],
             ["Framework", "TensorFlow and Keras"],
-            ["Random seed", "43"],
+            ["Random seed", "42"],
             ["Presentation", "10 minutes"],
         ],
         [2.2, 4.2],
@@ -790,7 +790,7 @@ def build_docx() -> None:
         [1.2, 4.2, 1.0],
     )
     doc.add_paragraph(
-        "The split is stratified and uses seed 43. Augmentation is applied after splitting and only to training images. "
+        "The split is stratified and uses seed 42. Augmentation is applied after splitting and only to training images. "
         "This prevents augmented versions of a test image from leaking into training."
     )
 
@@ -832,7 +832,7 @@ def build_docx() -> None:
     doc.add_page_break()
     doc.add_heading("Notebook Walkthrough", level=1)
     steps = [
-        "Setup imports, folders, and random seed 43.",
+        "Setup imports, folders, and random seed 42.",
         "Use a local dataset if present; otherwise download the public Kaggle dataset.",
         "Find images inside the 12 species folders and validate that every expected species exists.",
         "Map species to Crop or Weed and generate class-distribution and sample-image figures.",
@@ -858,7 +858,7 @@ def build_docx() -> None:
             ["Learning rate", "0.001", "Standard Adam starting value"],
             ["Loss", "Binary cross-entropy", "Correct for one sigmoid binary output"],
             ["Dropout", "0.50", "Reduces overfitting in the dense classifier"],
-            ["Seed", "43", "Reproducible and tied to the assigned roll number"],
+            ["Seed", "42", "Standard reproducible experiment seed"],
         ],
         [1.35, 1.3, 3.75],
     )
@@ -944,16 +944,16 @@ def build_docx() -> None:
         doc,
         ["Member", "Primary explanation"],
         [
-            ["Member 1", "Problem statement, motivation, and objectives"],
-            ["Member 2", "Dataset, label mapping, split, and augmentation"],
-            ["Member 3", "CNN architecture and hyperparameters"],
-            ["Member 4", "Accuracy, loss, confusion matrix, and metrics"],
-            ["Member 5", "Conclusion, limitations, future work, and file checks"],
+            ["Roll 41", "Problem statement, motivation, and objectives"],
+            ["Roll 42", "Dataset, label mapping, split, and augmentation"],
+            ["Roll 43", "CNN architecture and hyperparameters"],
+            ["Roll 44", "Accuracy, loss, confusion matrix, and metrics"],
+            ["Roll 45", "Conclusion, limitations, future work, and file checks"],
         ],
         [1.25, 5.15],
     )
     doc.add_paragraph(
-        "Every member should still understand the complete workflow. Roll number 43 should be able to connect all sections, "
+        "Every member should still understand the complete workflow. All students from roll numbers 41-45 should be able to connect all sections, "
         "explain why class weighting was used, and distinguish validation results from final test results."
     )
     doc.add_heading("Ten minute presentation flow", level=2)
@@ -1020,7 +1020,7 @@ def build_docx() -> None:
 
     doc.core_properties.title = "CNN Crop and Weed Classification Team Learning Guide"
     doc.core_properties.subject = "Deep Learning Study Project"
-    doc.core_properties.author = "Roll Number 43 Project Team"
+    doc.core_properties.author = "Roll Numbers 41-45 Project Team"
     DOCX_PATH.parent.mkdir(parents=True, exist_ok=True)
     doc.save(DOCX_PATH)
 

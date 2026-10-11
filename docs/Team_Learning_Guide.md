@@ -24,7 +24,7 @@ A convolution layer learns small visual patterns such as edges, curves, leaf sha
 
 1. Download or locate the 12 species folders.
 2. Convert species names into binary labels.
-3. Make stratified 70/15/15 splits with random seed 43.
+3. Make stratified 70/15/15 splits with random seed 42.
 4. Resize images to 128 x 128 and normalize pixel values.
 5. Augment training images only.
 6. Compute class weights from the training labels.
@@ -42,13 +42,13 @@ Never copy an accuracy value from another project. Read the final values from `o
 
 ## Suggested team roles
 
-- Member 1: problem statement, motivation, and objectives
-- Member 2: dataset, labels, preprocessing, and augmentation
-- Member 3: CNN architecture and hyperparameters
-- Member 4: training graphs, confusion matrix, and metrics
-- Member 5: conclusion, limitations, future work, and final file checks
+- Roll 41: problem statement, motivation, and objectives
+- Roll 42: dataset, labels, preprocessing, and augmentation
+- Roll 43: CNN architecture and hyperparameters
+- Roll 44: training graphs, confusion matrix, and metrics
+- Roll 45: conclusion, limitations, future work, and final file checks
 
-Roll number 43 should be ready to connect all sections and answer questions about the complete workflow.
+All students from roll numbers 41-45 should be ready to connect all sections and answer questions about the complete workflow.
 
 ## Common viva questions
 
