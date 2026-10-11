@@ -1,0 +1,8 @@
+data/raw/
+models/*.keras
+outputs/*.png
+outputs/*.csv
+outputs/*.json
+__pycache__/
+.ipynb_checkpoints/
+
