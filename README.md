@@ -31,6 +31,12 @@ CNN_Crop_Weed_Classification/
 |   `-- .gitkeep
 |-- presentation/
 |   `-- .gitkeep
+|-- references/
+|   |-- DL Syllabus.docx
+|   |-- List of study projects.docx
+|   |-- ML_Deep_Learning_Lab_Programs.docx
+|   |-- Sample report.docx
+|   `-- README.md
 |-- report/
 |   `-- .gitkeep
 `-- scripts/
@@ -52,6 +58,8 @@ CNN_Crop_Weed_Classification/
 The raw dataset is intentionally not stored in this project because it is approximately 1.7 GB. The notebook downloads it when required.
 
 See `docs/Dataset_Sources.md` for the official source, mirrors, fallback, and datasets that were considered but not selected.
+
+The `references/` folder contains the supplied syllabus, lab programs, project allocation, and sample report that should be followed when converting the project to the individual VGG16 submission.
 
 ## Reproducibility
 
