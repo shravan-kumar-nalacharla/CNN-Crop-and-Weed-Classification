@@ -82,7 +82,7 @@ def result_status():
         if data.get('status')=='full_training_completed': return data
     return None
 
-def report():
+def report(output_path=None):
     reference=ROOT/'references/Sample report.docx'
     doc=Document(reference)
     logo = next((deepcopy(p._p) for p in doc.paragraphs if p._p.xpath('.//w:drawing')), None)
@@ -120,11 +120,30 @@ def report():
       [('VGG16 architecture','The ImageNet convolution base contains 13 convolutional layers grouped into five blocks, each followed by pooling. include_top=False removes the original classifier. The model contains input and augmentation, VGG16 preprocessing, VGG16 base, GlobalAveragePooling2D, Dense 128 ReLU, Dropout 0.5 and Dense 1 sigmoid. Sigmoid output estimates Weed probability and a 0.5 threshold selects the binary class. Assertions confirm the VGG16 structure, requested ImageNet weights, trainability and sigmoid output.'),('Framework and tools','Python 3.11, TensorFlow/Keras, NumPy, pandas, scikit-learn, Matplotlib, Seaborn and Pillow implement the experiment. Kaggle and kagglehub acquire data. JupyterLab and ipykernel support local notebook execution. A repository-specific .venv isolates dependencies. Native Windows uses CPU; WSL2 or optional Colab supports NVIDIA acceleration.')],
       [('Methodology','Verify environment and dataset, explore distributions, create stratified 70/15/15 partitions and assert path disjointness. Calculate balanced class weights only from training labels. Create a tf.data pipeline that loads raw RGB images without normalizing by 255. Train the classification head, fine-tune block5, reload the global best validation-loss checkpoint and evaluate test predictions once.'),('Hyperparameters','Input 224×224×3; batch size 16 configurable; seed 42; Dense 128 ReLU; Dropout 0.5; binary cross-entropy; Adam 0.001 for up to 10 head epochs; Adam 0.00001 for up to 5 block5 epochs. EarlyStopping patience 3 restores best weights; ReduceLROnPlateau patience 2 halves learning rate; checkpoint monitors validation loss.')],
       [('Training procedure','Phase 1 freezes all VGG16 layers and learns the binary head. Phase 2 enables only block5 layers and recompiles the model. The checkpoint retains the best validation loss across both phases. No augmentation runs on validation or test images. The quick smoke test uses balanced subsets drawn after splitting and runs one head epoch; it checks forward/backward computation, block5 flags, preprocessing, model reload and prediction generation.')],
-      [('Model performance',pending if not result else f"Measured test loss: {result['test_loss']:.5f}. Test accuracy: {result['test_accuracy']:.5f}. AUC: {result['auc']:.5f}. Test images: {result['evaluated_test_images']}."),('Accuracy graph','Training and validation accuracy by epoch, with the fine-tuning boundary marked.'),('Loss graph','Training and validation binary cross-entropy; the best validation loss selects the model.')],
+      [('Model performance',pending if not result else f"Measured test loss: {result['test_loss']:.5f}. Test accuracy: {result['test_accuracy']:.2%}. AUC: {result['auc']:.5f}. Test images: {result['evaluated_test_images']}."),('Accuracy graph','Training and validation accuracy by epoch, with the fine-tuning boundary marked.'),('Loss graph','Training and validation binary cross-entropy; the best validation loss selects the model.')],
       [('Confusion matrix','Rows represent actual class and columns predicted class. Crop false negatives represent crop images predicted as weeds, a potentially harmful error in future agricultural use.'),('Analysis and results',pending if not result else 'Read the measured class report beside the confusion matrix. Compare minority Crop recall with Weed recall and compare train/validation curves for overfitting. The AUC measures ranking across thresholds; the reported class decisions use threshold 0.5.')],
       [('Sample predictions','Review correct and incorrect test predictions using the generated image grids. A confident sigmoid output is not a calibrated guarantee.'),('Conclusion','The project implements reproducible VGG16 transfer learning and local execution for an individual study. '+('Full-run measurements quantify performance on this held-out image split.' if result else 'Full-run performance remains pending and no accuracy claim is made.')),('Limitations and future work','Controlled lighting and backgrounds limit field generalization. Multiple images may depict the same plant at different growth stages, so disjoint image paths do not ensure plant-level independence. Future work should verify plant identities for grouped splitting, obtain field images, calibrate probabilities and examine Crop recall under varied thresholds. CPU fine-tuning can be slow and memory intensive.')],
       [('References','1. Supplied DL Syllabus, ML Deep Learning Lab Programs, List of study projects and Sample report (references/).\n2. Giselsson et al. (2017), A Public Image Database for Benchmark of Plant Seedling Classification Algorithms. https://arxiv.org/abs/1711.05458\n3. Aarhus Plant Seedlings Dataset. https://vision.eng.au.dk/plant-seedlings-dataset/\n4. Kaggle V2 dataset. https://www.kaggle.com/datasets/vbookshelf/v2-plant-seedlings-dataset\n5. Simonyan and Zisserman (2014), Very Deep Convolutional Networks for Large-Scale Image Recognition. https://arxiv.org/abs/1409.1556\n6. TensorFlow VGG16 and installation documentation. https://www.tensorflow.org/api_docs/python/tf/keras/applications/VGG16 and https://www.tensorflow.org/install/pip\n7. CC BY-SA 4.0. https://creativecommons.org/licenses/by-sa/4.0/')]
     ]
+    if result:
+        # Give each measured curve its own page rather than squeezing both figures.
+        performance=pages[6]
+        pages[6:7]=[[performance[0]],[performance[1]],[performance[2]]]
+        errors=result['confusion_matrix'][0][1]+result['confusion_matrix'][1][0]
+        pages.insert(10,[('Misclassified examples',f"The saved test predictions contain {errors} incorrect classifications. The examples below are actual held-out test errors. Sigmoid Weed probabilities are model scores and are not calibrated confidence guarantees.")])
+        actual_run=(f"Measured local run: batch size {result['batch_size']}; "
+                    f"{result['head_epochs_requested']} frozen-head epochs and "
+                    f"{result['fine_epochs_requested']} block5 epochs ({result['epochs']} total). "
+                    "The default maximum budgets remain 10 and 5 epochs. "
+                    "Training loss uses balanced class weights; validation and test losses are unweighted.")
+        for sections in pages:
+            for j,(name,content) in enumerate(sections):
+                if name=='Hyperparameters':sections[j]=(name,actual_run+' Input size is 224×224×3, seed 42, Dense 128 ReLU, Dropout 0.5, binary cross-entropy and Adam. Head learning rate is 0.001; block5 learning rate is 0.00001. Early stopping uses patience 3; learning-rate reduction halves the rate after patience 2. The default batch size is 16, configurable for available memory.')
+                elif name=='Abstract':sections[j]=(name,content+f" The held-out test accuracy was {100*result['test_accuracy']:.2f}% on {result['evaluated_test_images']} images.")
+                elif name=='Analysis and results':
+                    matrix=result['confusion_matrix'];metrics=result['classification_report']
+                    sections[j]=(name,f"The model correctly classified {matrix[0][0]+matrix[1][1]} of 831 test images. Crop recall was {metrics['Crop']['recall']:.2%}, while Weed recall was {metrics['Weed']['recall']:.2%}. There were {matrix[0][1]} crops predicted as Weed and {matrix[1][0]} weeds predicted as Crop. Overall accuracy was {result['test_accuracy']:.2%}, compared with the 82.43% majority-Weed baseline. ROC AUC was {result['auc']:.5f}; class decisions used threshold 0.5. These measurements describe this held-out image split, with the plant-identity and field-background limitations discussed below.")
+                elif name=='Conclusion':sections[j]=(name,f"The individual project implements and executes a complete local VGG16 transfer-learning pipeline. The selected checkpoint achieved {result['test_accuracy']:.2%} accuracy, {result['test_loss']:.5f} test loss and {result['auc']:.5f} AUC on 831 held-out images after five measured epochs. Results, predictions and the saved model support reproducible review of this image-level experiment.")
     heading('Index')
     table=doc.add_table(rows=1,cols=2);table.style='Table Grid'
     table.rows[0].cells[0].text='Topic';table.rows[0].cells[1].text='Page'
@@ -134,7 +153,7 @@ def report():
             for cell in cells:
                 for run in cell.paragraphs[0].runs:run.font.size=Pt(10)
     doc.add_page_break()
-    graphs={'Accuracy graph':'accuracy_graph','Loss graph':'loss_graph','Confusion matrix':'confusion_matrix','Sample predictions':'sample_predictions'}
+    graphs={'Accuracy graph':'accuracy_graph','Loss graph':'loss_graph','Confusion matrix':'confusion_matrix','Sample predictions':'sample_predictions','Misclassified examples':'misclassified_examples'}
     for i,sections in enumerate(pages):
         for name,text in sections:
             heading(name)
@@ -145,10 +164,10 @@ def report():
                 for c,text in zip(t.rows[0].cells,['Class','Precision','Recall','F1']):c.text=text
                 for label in ['Crop','Weed']:
                     vals=result['classification_report'][label]
-                    for c,text in zip(t.add_row().cells,[label,*[f'{vals[k]:.4f}' for k in ['precision','recall','f1-score']]]):c.text=text
+                    for c,text in zip(t.add_row().cells,[label,*[f'{vals[k]:.2%}' for k in ['precision','recall','f1-score']]]):c.text=text
             if name in graphs:
                 image=ROOT/f'outputs/{graphs[name]}.png'
-                if result and image.exists():doc.add_picture(str(image),width=Inches(4.4))
+                if result and image.exists():doc.add_picture(str(image),width=Inches(6.0))
                 else:p('[Figure pending full training]')
         if i<len(pages)-1:doc.add_page_break()
     # Page field supports opening and printing in Word.
@@ -157,7 +176,8 @@ def report():
     field=OxmlElement('w:fldSimple');field.set(qn('w:instr'),'PAGE');foot._p.append(field)
     settings=doc.settings._element;update=OxmlElement('w:updateFields');update.set(qn('w:val'),'true');settings.append(update)
     (ROOT/'report').mkdir(exist_ok=True)
-    destination=ROOT/'report/Roll_43_VGG16_Report.docx'
+    destination=Path(output_path) if output_path else ROOT/'report/Roll_43_VGG16_Report.docx'
+    if not destination.is_absolute():destination=ROOT/destination
     doc.save(destination)
     # python-docx may serialize opaque relationship parts differently. Preserve them exactly.
     buffer=io.BytesIO()
@@ -168,4 +188,10 @@ def report():
     destination.write_bytes(buffer.getvalue())
 
 if __name__=='__main__':
-    notebook();report()
+    import argparse
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--report-only',action='store_true')
+    parser.add_argument('--report-output',type=Path)
+    args=parser.parse_args()
+    if not args.report_only:notebook()
+    report(args.report_output)

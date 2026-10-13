@@ -1,5 +1,7 @@
 # Roll 43 individual learning guide
 
+For the complete beginner explanation, read [Project Explained From Zero](Project_Explained_From_Zero.md) or the [Word study guide](Roll_43_Project_Explained_From_Zero.docx). It explains the concepts, code, measured results, commands, eleven-slide talk and viva questions. This page is a short technical checklist.
+
 This project demonstrates syllabus Unit I (Adam, learning rate, cross-entropy, dropout), Unit II (convolution and pooling) and Unit V (transfer learning). It extends the lab image-classification workflow using pretrained VGG16. Read scripts/core.py beside the notebook: both use the same implementation.
 
 VGG16 uses 13 convolution layers in five blocks. ImageNet features initialize the binary head. Global average pooling produces a feature vector; Dense 128 learns the task, dropout 0.5 regularizes it, and one sigmoid gives Weed probability. Below 0.5 means Crop.

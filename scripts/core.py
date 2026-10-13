@@ -11,7 +11,7 @@ import seaborn as sns
 from PIL import Image
 from sklearn.model_selection import train_test_split
 from sklearn.utils.class_weight import compute_class_weight
-from sklearn.metrics import classification_report, confusion_matrix, roc_auc_score
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_auc_score
 import tensorflow as tf
 from dataset import ROOT, DATA, inspect_dataset
 
@@ -215,10 +215,11 @@ class Experiment:
         reloaded=tf.keras.models.load_model(roundtrip)
         np.testing.assert_allclose(expected,reloaded(images,training=False).numpy(),rtol=1e-5,atol=1e-6)
         roundtrip.unlink(); del reloaded
-        loss,accuracy=self.model.evaluate(self.test_ds,verbose=0)
+        loss,_=self.model.evaluate(self.test_ds,verbose=0)
         probs=self.model.predict(self.test_ds,verbose=0).ravel(); predicted=(probs>=.5).astype(int)
+        accuracy=accuracy_score(self.test.label,predicted)
         report=classification_report(self.test.label,predicted,target_names=['Crop','Weed'],labels=[0,1],output_dict=True,zero_division=0)
-        pd.DataFrame(report).transpose().to_csv(self.output/'classification_report.csv')
+        pd.DataFrame({key:value for key,value in report.items() if isinstance(value,dict)}).transpose().to_csv(self.output/'classification_report.csv')
         matrix=confusion_matrix(self.test.label,predicted,labels=[0,1])
         fig,ax=plt.subplots(figsize=(5,4));sns.heatmap(matrix,annot=True,fmt='d',xticklabels=['Crop','Weed'],yticklabels=['Crop','Weed'],ax=ax)
         ax.set(xlabel='Predicted',ylabel='Actual',title='Confusion matrix');fig.tight_layout();fig.savefig(self.output/'confusion_matrix.png',dpi=140);plt.close(fig)
@@ -232,13 +233,17 @@ class Experiment:
                  'dataset_images':len(self.df),'dataset_species':int(self.df.species.nunique()),
                  'evaluated_test_images':len(self.test),'epochs':len(self.history['loss']),'batch_size':self.actual_batch_size,
                  'head_epochs_requested':self.cfg.head_epochs,'fine_epochs_requested':self.cfg.fine_epochs,
+                 'head_epochs_completed':len(self.histories[0]['loss']),
+                 'fine_epochs_completed':len(self.histories[1]['loss']) if len(self.histories)>1 else 0,
+                 'best_validation_loss':min(self.history['val_loss']),
                  'split_counts':self.splits.split.value_counts().to_dict(),
                  'seed':self.cfg.seed,'model_saves_and_reloads':True}
         (self.output/'results_summary.json').write_text(json.dumps(summary,indent=2))
         print(json.dumps(summary,indent=2)); return summary
 
 def predict_image(model,path):
-    image=tf.keras.utils.load_img(path,target_size=(224,224),color_mode='rgb')
-    raw=tf.keras.utils.img_to_array(image)[None,...]
+    # Match the evaluation pipeline's decoder and bilinear resizing exactly.
+    image=tf.io.decode_image(tf.io.read_file(str(path)),channels=3,expand_animations=False)
+    raw=tf.image.resize(tf.cast(image,tf.float32),(224,224))[None,...]
     probability=float(model(raw,training=False).numpy()[0,0])
     return {'class':'Weed' if probability>=.5 else 'Crop','weed_probability':probability}

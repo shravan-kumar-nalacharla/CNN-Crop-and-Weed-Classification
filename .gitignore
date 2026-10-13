@@ -17,6 +17,9 @@ __pycache__/
 node_modules/
 *.tmp
 *.log
+~$*
 outputs/
 models/*
 !models/.gitkeep
+
+.chart-data-*/

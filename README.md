@@ -2,6 +2,8 @@
 
 Individual Deep Learning study project, **Roll Number 43**, **Nalacherla Shravan Kumar**, **23EG110C43**. Local Jupyter is the primary workflow. VGG16 ImageNet transfer learning predicts Crop (0) or Weed (1) from V2 Plant Seedlings.
 
+Start with the [beginner study guide](docs/Project_Explained_From_Zero.md) or its [Word version](docs/Roll_43_Project_Explained_From_Zero.docx). It explains the project from the basics, the code, the results, presentation notes and viva answers. The completed artifacts are the [results presentation](presentation/Roll_43_VGG16_Presentation_Results.pptx) and [results report](report/Roll_43_VGG16_Report_Results.docx).
+
 ## Windows quick start
 
 Install Git and Python 3.11 if absent. In PowerShell:
@@ -56,10 +58,10 @@ Smoke testing uses 8 balanced training, 4 validation and 4 test real images sele
 
 Full outputs include distribution, samples, accuracy/loss, confusion matrix, predictions, misclassified images, classification_report.csv, dataset_splits.csv, test_predictions.csv and results_summary.json. The best model is models/best_vgg16_crop_weed.keras. Generated results are the sole source for report and presentation metrics.
 
-Run `python scripts/build_artifacts.py` to rebuild the notebook and Word report after training. The presentation builder also reads results_summary.json. Full-training result placeholders remain explicit until training completes.
+The completed local run used five epochs (3 head + 2 block5), batch size 4, and achieved 97.71% test accuracy. Open `notebooks/Review_Completed_Results.ipynb` to inspect saved graphs, metrics and model inference without retraining. Run `python scripts/build_artifacts.py --report-only --report-output report/Roll_43_VGG16_Report_Results.docx` to rebuild the results report after training. For the results presentation, run `python scripts/prepare_presentation.py` followed by `node scripts/build_presentation.mjs` using the bundled artifact-tool runtime described in presentation/README.md. The presentation requires completed full-run outputs and uses editable charts and tables sourced from those files.
 
 ## Validation and submission
 
 `python scripts/validate_project.py` compiles Python/notebook cells, checks disjoint splits and stale references. See docs/Learning_Guide.md and docs/Dataset_Sources.md. Course references remain unchanged. The report follows the sample structure, stays below 20 pages and supports one-sided printing. The 11-slide deck supports a 10-minute individual presentation.
 
-Raw images, credentials, environment, models, caches and smoke results remain local. Source, setup, notebook, docs, report and presentation are versioned. Only actual full-training graphs may be explicitly added to Git.
+Raw images, credentials, environment, models, caches and smoke results remain local. Source, setup, notebook, docs, report and presentation are versioned. Measured full-training graphs and small CSV/JSON provenance files are versioned for review.

@@ -1,0 +1,832 @@
+relative_path,species,label,split,weed_probability,predicted_label,predicted_class
+data/raw/plant_seedlings/Charlock/285.png,Charlock,1,test,0.9988696,1,Weed
+data/raw/plant_seedlings/Common Chickweed/295.png,Common Chickweed,1,test,0.9999822,1,Weed
+data/raw/plant_seedlings/Fat Hen/391.png,Fat Hen,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/130.png,Scentless Mayweed,1,test,0.9999998,1,Weed
+data/raw/plant_seedlings/Common Chickweed/309.png,Common Chickweed,1,test,0.99993247,1,Weed
+data/raw/plant_seedlings/Common Chickweed/657.png,Common Chickweed,1,test,0.9974458,1,Weed
+data/raw/plant_seedlings/Black-grass/76.png,Black-grass,1,test,0.2265387,0,Crop
+data/raw/plant_seedlings/Charlock/129.png,Charlock,1,test,0.9999735,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/160.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Cleavers/151.png,Cleavers,1,test,0.9594738,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/632.png,Loose Silky-bent,1,test,0.9999912,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/127.png,Small-flowered Cranesbill,1,test,0.9999998,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/235.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/247.png,Sugar Beet,0,test,3.6301342e-05,0,Crop
+data/raw/plant_seedlings/Sugar Beet/391.png,Sugar Beet,0,test,3.120878e-06,0,Crop
+data/raw/plant_seedlings/Scentless Mayweed/86.png,Scentless Mayweed,1,test,0.99940544,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/184.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/598.png,Scentless Mayweed,1,test,0.9999912,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/133.png,Scentless Mayweed,1,test,0.9999802,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/403.png,Loose Silky-bent,1,test,0.995556,1,Weed
+data/raw/plant_seedlings/Black-grass/109.png,Black-grass,1,test,0.99931633,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/198.png,Loose Silky-bent,1,test,0.9429858,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/530.png,Scentless Mayweed,1,test,0.9999702,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/255.png,Scentless Mayweed,1,test,0.9870866,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/295.png,Scentless Mayweed,1,test,0.99975914,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/138.png,Loose Silky-bent,1,test,0.9919218,1,Weed
+data/raw/plant_seedlings/Maize/223.png,Maize,0,test,0.25038138,0,Crop
+data/raw/plant_seedlings/Charlock/287.png,Charlock,1,test,0.99996084,1,Weed
+data/raw/plant_seedlings/Fat Hen/310.png,Fat Hen,1,test,0.99770075,1,Weed
+data/raw/plant_seedlings/Cleavers/273.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/296.png,Sugar Beet,0,test,1.8347982e-06,0,Crop
+data/raw/plant_seedlings/Charlock/68.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/340.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/80.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/44.png,Sugar Beet,0,test,1.1361953e-05,0,Crop
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/93.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Charlock/323.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Cleavers/331.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/295.png,Sugar Beet,0,test,1.2844494e-07,0,Crop
+data/raw/plant_seedlings/Sugar Beet/365.png,Sugar Beet,0,test,0.0055746865,0,Crop
+data/raw/plant_seedlings/Common Chickweed/266.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/192.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/244.png,Common Chickweed,1,test,0.98658305,1,Weed
+data/raw/plant_seedlings/Maize/92.png,Maize,0,test,0.960295,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/429.png,Loose Silky-bent,1,test,0.98570186,1,Weed
+data/raw/plant_seedlings/Sugar Beet/309.png,Sugar Beet,0,test,0.00023135486,0,Crop
+data/raw/plant_seedlings/Fat Hen/227.png,Fat Hen,1,test,0.9934168,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/141.png,Scentless Mayweed,1,test,0.9999851,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/289.png,Loose Silky-bent,1,test,0.99930507,1,Weed
+data/raw/plant_seedlings/Cleavers/298.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/4.png,Scentless Mayweed,1,test,0.99999034,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/41.png,Scentless Mayweed,1,test,0.9988367,1,Weed
+data/raw/plant_seedlings/Common wheat/49.png,Common Wheat,0,test,0.008585444,0,Crop
+data/raw/plant_seedlings/Sugar Beet/198.png,Sugar Beet,0,test,0.10456446,0,Crop
+data/raw/plant_seedlings/Black-grass/174.png,Black-grass,1,test,0.9984457,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/138.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Maize/34.png,Maize,0,test,9.39143e-05,0,Crop
+data/raw/plant_seedlings/Common Chickweed/288.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/414.png,Loose Silky-bent,1,test,0.9974389,1,Weed
+data/raw/plant_seedlings/Charlock/291.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/71.png,Common Chickweed,1,test,0.99997497,1,Weed
+data/raw/plant_seedlings/Fat Hen/269.png,Fat Hen,1,test,0.8598725,1,Weed
+data/raw/plant_seedlings/Common Chickweed/587.png,Common Chickweed,1,test,0.9999995,1,Weed
+data/raw/plant_seedlings/Common Chickweed/25.png,Common Chickweed,1,test,0.98094285,1,Weed
+data/raw/plant_seedlings/Common Chickweed/577.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/652.png,Common Chickweed,1,test,0.99514145,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/575.png,Scentless Mayweed,1,test,0.9999168,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/497.png,Scentless Mayweed,1,test,0.99999404,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/799.png,Loose Silky-bent,1,test,0.62479055,1,Weed
+data/raw/plant_seedlings/Common Chickweed/247.png,Common Chickweed,1,test,0.79037035,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/266.png,Scentless Mayweed,1,test,0.99978936,1,Weed
+data/raw/plant_seedlings/Common wheat/64.png,Common Wheat,0,test,0.9901863,1,Weed
+data/raw/plant_seedlings/Black-grass/10.png,Black-grass,1,test,0.7008271,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/101.png,Loose Silky-bent,1,test,0.97727644,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/554.png,Loose Silky-bent,1,test,0.9972451,1,Weed
+data/raw/plant_seedlings/Cleavers/239.png,Cleavers,1,test,0.99283195,1,Weed
+data/raw/plant_seedlings/Sugar Beet/145.png,Sugar Beet,0,test,2.0121826e-05,0,Crop
+data/raw/plant_seedlings/Black-grass/41.png,Black-grass,1,test,0.925094,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/118.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/183.png,Scentless Mayweed,1,test,0.99586034,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/545.png,Scentless Mayweed,1,test,0.99912316,1,Weed
+data/raw/plant_seedlings/Charlock/43.png,Charlock,1,test,0.99999976,1,Weed
+data/raw/plant_seedlings/Common Chickweed/265.png,Common Chickweed,1,test,0.98274195,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/604-9.png,Loose Silky-bent,1,test,0.99990374,1,Weed
+data/raw/plant_seedlings/Black-grass/188.png,Black-grass,1,test,0.9900587,1,Weed
+data/raw/plant_seedlings/Fat Hen/498.png,Fat Hen,1,test,0.96738505,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/409.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/193.png,Scentless Mayweed,1,test,0.985925,1,Weed
+data/raw/plant_seedlings/Common wheat/130.png,Common Wheat,0,test,0.09751462,0,Crop
+data/raw/plant_seedlings/Fat Hen/449.png,Fat Hen,1,test,0.7905065,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/7.png,Scentless Mayweed,1,test,0.9911844,1,Weed
+data/raw/plant_seedlings/Common Chickweed/684.png,Common Chickweed,1,test,0.99999934,1,Weed
+data/raw/plant_seedlings/Black-grass/154.png,Black-grass,1,test,0.99480623,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/101.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Black-grass/227.png,Black-grass,1,test,0.549489,1,Weed
+data/raw/plant_seedlings/Fat Hen/519.png,Fat Hen,1,test,0.9999228,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/577.png,Loose Silky-bent,1,test,0.9992433,1,Weed
+data/raw/plant_seedlings/Common Chickweed/109.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/258.png,Small-flowered Cranesbill,1,test,0.99998075,1,Weed
+data/raw/plant_seedlings/Common Chickweed/229.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/74.png,Sugar Beet,0,test,8.101312e-06,0,Crop
+data/raw/plant_seedlings/Small-flowered Cranesbill/478.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/149.png,Sugar Beet,0,test,0.0004277345,0,Crop
+data/raw/plant_seedlings/Common Chickweed/333.png,Common Chickweed,1,test,0.99998957,1,Weed
+data/raw/plant_seedlings/Common Chickweed/54.png,Common Chickweed,1,test,0.9997887,1,Weed
+data/raw/plant_seedlings/Sugar Beet/78.png,Sugar Beet,0,test,1.8595145e-05,0,Crop
+data/raw/plant_seedlings/Loose Silky-bent/342-1.png,Loose Silky-bent,1,test,0.9988181,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/671.png,Loose Silky-bent,1,test,0.99158335,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/344.png,Scentless Mayweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/204.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/217.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/444.png,Loose Silky-bent,1,test,0.9937,1,Weed
+data/raw/plant_seedlings/Common Chickweed/337.png,Common Chickweed,1,test,0.99999106,1,Weed
+data/raw/plant_seedlings/Common Chickweed/595.png,Common Chickweed,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/365.png,Loose Silky-bent,1,test,0.9985508,1,Weed
+data/raw/plant_seedlings/Cleavers/164.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Black-grass/137.png,Black-grass,1,test,0.99836856,1,Weed
+data/raw/plant_seedlings/Cleavers/234.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/701.png,Common Chickweed,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Fat Hen/459.png,Fat Hen,1,test,0.99751204,1,Weed
+data/raw/plant_seedlings/Fat Hen/111.png,Fat Hen,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Maize/83.png,Maize,0,test,0.9999096,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/155.png,Small-flowered Cranesbill,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Sugar Beet/445.png,Sugar Beet,0,test,2.8098535e-08,0,Crop
+data/raw/plant_seedlings/Sugar Beet/258.png,Sugar Beet,0,test,0.21504389,0,Crop
+data/raw/plant_seedlings/Small-flowered Cranesbill/489.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/166.png,Small-flowered Cranesbill,1,test,0.99999565,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/131.png,Loose Silky-bent,1,test,0.86453533,1,Weed
+data/raw/plant_seedlings/Cleavers/160.png,Cleavers,1,test,0.99999934,1,Weed
+data/raw/plant_seedlings/Charlock/440.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Charlock/57.png,Charlock,1,test,0.9999996,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/239.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/426.png,Small-flowered Cranesbill,1,test,0.99999756,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/39.png,Shepherd’s Purse,1,test,0.9999995,1,Weed
+data/raw/plant_seedlings/Charlock/210.png,Charlock,1,test,0.9999119,1,Weed
+data/raw/plant_seedlings/Common Chickweed/382.png,Common Chickweed,1,test,0.9999499,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/513.png,Small-flowered Cranesbill,1,test,0.9999999,1,Weed
+data/raw/plant_seedlings/Sugar Beet/271.png,Sugar Beet,0,test,4.238261e-06,0,Crop
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/135.png,Shepherd’s Purse,1,test,0.9999983,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/379.png,Loose Silky-bent,1,test,0.964182,1,Weed
+data/raw/plant_seedlings/Cleavers/315.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Charlock/345.png,Charlock,1,test,0.9919847,1,Weed
+data/raw/plant_seedlings/Fat Hen/280.png,Fat Hen,1,test,0.7887739,1,Weed
+data/raw/plant_seedlings/Fat Hen/272.png,Fat Hen,1,test,0.9592093,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/194.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/332.png,Fat Hen,1,test,0.9982774,1,Weed
+data/raw/plant_seedlings/Charlock/290.png,Charlock,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Sugar Beet/398.png,Sugar Beet,0,test,0.0006076582,0,Crop
+data/raw/plant_seedlings/Small-flowered Cranesbill/246.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/295.png,Small-flowered Cranesbill,1,test,0.99999934,1,Weed
+data/raw/plant_seedlings/Sugar Beet/1.png,Sugar Beet,0,test,0.036690626,0,Crop
+data/raw/plant_seedlings/Charlock/380.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/415.png,Sugar Beet,0,test,0.0033896558,0,Crop
+data/raw/plant_seedlings/Common wheat/198.png,Common Wheat,0,test,0.35884845,0,Crop
+data/raw/plant_seedlings/Sugar Beet/140.png,Sugar Beet,0,test,0.056401324,0,Crop
+data/raw/plant_seedlings/Small-flowered Cranesbill/400.png,Small-flowered Cranesbill,1,test,0.8764423,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/243.png,Shepherd’s Purse,1,test,0.99998206,1,Weed
+data/raw/plant_seedlings/Charlock/37.png,Charlock,1,test,0.9999951,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/440.png,Loose Silky-bent,1,test,0.9952209,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/443.png,Scentless Mayweed,1,test,0.9999992,1,Weed
+data/raw/plant_seedlings/Common wheat/79.png,Common Wheat,0,test,0.3279056,0,Crop
+data/raw/plant_seedlings/Black-grass/97.png,Black-grass,1,test,0.99998593,1,Weed
+data/raw/plant_seedlings/Common Chickweed/220.png,Common Chickweed,1,test,0.9886407,1,Weed
+data/raw/plant_seedlings/Fat Hen/246.png,Fat Hen,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/293.png,Small-flowered Cranesbill,1,test,0.9999999,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/585.png,Loose Silky-bent,1,test,0.9979038,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/362.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Cleavers/300.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/313.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/220.png,Sugar Beet,0,test,0.7202263,1,Weed
+data/raw/plant_seedlings/Maize/149.png,Maize,0,test,1.781602e-07,0,Crop
+data/raw/plant_seedlings/Charlock/178.png,Charlock,1,test,0.99999946,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/175.png,Scentless Mayweed,1,test,0.9999985,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/508.png,Scentless Mayweed,1,test,0.9996142,1,Weed
+data/raw/plant_seedlings/Charlock/76.png,Charlock,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/211.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Black-grass/139.png,Black-grass,1,test,0.9620615,1,Weed
+data/raw/plant_seedlings/Charlock/53.png,Charlock,1,test,0.999999,1,Weed
+data/raw/plant_seedlings/Sugar Beet/443.png,Sugar Beet,0,test,0.35398328,0,Crop
+data/raw/plant_seedlings/Small-flowered Cranesbill/468.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/767.png,Loose Silky-bent,1,test,0.9607896,1,Weed
+data/raw/plant_seedlings/Sugar Beet/332.png,Sugar Beet,0,test,0.05517431,0,Crop
+data/raw/plant_seedlings/Small-flowered Cranesbill/341.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/343.png,Loose Silky-bent,1,test,0.9960548,1,Weed
+data/raw/plant_seedlings/Maize/135.png,Maize,0,test,2.6621068e-16,0,Crop
+data/raw/plant_seedlings/Common wheat/159.png,Common Wheat,0,test,0.5294797,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/67.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common wheat/167.png,Common Wheat,0,test,0.825442,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/712.png,Loose Silky-bent,1,test,0.99905646,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/484.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/459.png,Scentless Mayweed,1,test,0.99975485,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/448.png,Loose Silky-bent,1,test,0.99926025,1,Weed
+data/raw/plant_seedlings/Charlock/252.png,Charlock,1,test,0.9999547,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/165.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/278.png,Fat Hen,1,test,0.9244836,1,Weed
+data/raw/plant_seedlings/Fat Hen/264.png,Fat Hen,1,test,0.9967025,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/162.png,Scentless Mayweed,1,test,0.9998332,1,Weed
+data/raw/plant_seedlings/Common Chickweed/507.png,Common Chickweed,1,test,0.99999887,1,Weed
+data/raw/plant_seedlings/Common Chickweed/136.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/638.png,Common Chickweed,1,test,0.9831671,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/430.png,Scentless Mayweed,1,test,0.9996731,1,Weed
+data/raw/plant_seedlings/Common Chickweed/363.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/517.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/35.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Black-grass/296.png,Black-grass,1,test,0.99518913,1,Weed
+data/raw/plant_seedlings/Common Chickweed/112.png,Common Chickweed,1,test,0.9999865,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/34.png,Loose Silky-bent,1,test,0.9906916,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/124.png,Loose Silky-bent,1,test,0.9847847,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/542.png,Scentless Mayweed,1,test,0.99999803,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/18.png,Loose Silky-bent,1,test,0.9029186,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/394.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/16.png,Loose Silky-bent,1,test,0.9791569,1,Weed
+data/raw/plant_seedlings/Maize/237.png,Maize,0,test,1.782725e-06,0,Crop
+data/raw/plant_seedlings/Scentless Mayweed/538.png,Scentless Mayweed,1,test,0.99999887,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/679.png,Loose Silky-bent,1,test,0.99752796,1,Weed
+data/raw/plant_seedlings/Common wheat/137.png,Common Wheat,0,test,0.13261662,0,Crop
+data/raw/plant_seedlings/Common wheat/53.png,Common Wheat,0,test,0.000173921,0,Crop
+data/raw/plant_seedlings/Fat Hen/252.png,Fat Hen,1,test,0.9999901,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/765.png,Loose Silky-bent,1,test,0.9395516,1,Weed
+data/raw/plant_seedlings/Sugar Beet/330.png,Sugar Beet,0,test,0.8661523,1,Weed
+data/raw/plant_seedlings/Sugar Beet/456.png,Sugar Beet,0,test,2.2261422e-07,0,Crop
+data/raw/plant_seedlings/Fat Hen/455.png,Fat Hen,1,test,0.50269854,1,Weed
+data/raw/plant_seedlings/Common Chickweed/162.png,Common Chickweed,1,test,0.99999815,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/50.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/9.png,Fat Hen,1,test,0.7097508,1,Weed
+data/raw/plant_seedlings/Common Chickweed/78.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/311-1.png,Loose Silky-bent,1,test,0.99989396,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/322.png,Scentless Mayweed,1,test,0.99534595,1,Weed
+data/raw/plant_seedlings/Maize/111.png,Maize,0,test,6.5545e-11,0,Crop
+data/raw/plant_seedlings/Sugar Beet/335.png,Sugar Beet,0,test,3.7943426e-08,0,Crop
+data/raw/plant_seedlings/Scentless Mayweed/281.png,Scentless Mayweed,1,test,0.9998507,1,Weed
+data/raw/plant_seedlings/Sugar Beet/147.png,Sugar Beet,0,test,0.00060140644,0,Crop
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/244.png,Shepherd’s Purse,1,test,0.984952,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/587.png,Loose Silky-bent,1,test,0.9970215,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/511.png,Loose Silky-bent,1,test,0.9983864,1,Weed
+data/raw/plant_seedlings/Common Chickweed/272.png,Common Chickweed,1,test,0.9999974,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/296.png,Loose Silky-bent,1,test,0.9994985,1,Weed
+data/raw/plant_seedlings/Charlock/79.png,Charlock,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Common Chickweed/120.png,Common Chickweed,1,test,0.9999938,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/645.png,Loose Silky-bent,1,test,0.999126,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/287.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/286.png,Fat Hen,1,test,0.98764044,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/77.png,Scentless Mayweed,1,test,0.99999917,1,Weed
+data/raw/plant_seedlings/Common Chickweed/332.png,Common Chickweed,1,test,0.9999131,1,Weed
+data/raw/plant_seedlings/Cleavers/265.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/370.png,Fat Hen,1,test,0.9901939,1,Weed
+data/raw/plant_seedlings/Common wheat/189.png,Common Wheat,0,test,0.16705763,0,Crop
+data/raw/plant_seedlings/Sugar Beet/201.png,Sugar Beet,0,test,6.4647074e-06,0,Crop
+data/raw/plant_seedlings/Loose Silky-bent/161.png,Loose Silky-bent,1,test,0.96362865,1,Weed
+data/raw/plant_seedlings/Charlock/174.png,Charlock,1,test,0.9999975,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/77.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/191.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common wheat/155.png,Common Wheat,0,test,0.13085434,0,Crop
+data/raw/plant_seedlings/Common wheat/181.png,Common Wheat,0,test,0.0055289683,0,Crop
+data/raw/plant_seedlings/Common Chickweed/242.png,Common Chickweed,1,test,0.93757284,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/383.png,Scentless Mayweed,1,test,0.9999718,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/19.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common wheat/39.png,Common Wheat,0,test,0.018669372,0,Crop
+data/raw/plant_seedlings/Cleavers/61.png,Cleavers,1,test,0.9999618,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/158.png,Loose Silky-bent,1,test,0.9968635,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/80.png,Loose Silky-bent,1,test,0.9994206,1,Weed
+data/raw/plant_seedlings/Sugar Beet/410.png,Sugar Beet,0,test,0.3355684,0,Crop
+data/raw/plant_seedlings/Common Chickweed/364.png,Common Chickweed,1,test,0.99971193,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/56.png,Scentless Mayweed,1,test,0.9833602,1,Weed
+data/raw/plant_seedlings/Common Chickweed/388.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Maize/67.png,Maize,0,test,3.2124986e-12,0,Crop
+data/raw/plant_seedlings/Sugar Beet/441.png,Sugar Beet,0,test,0.71959174,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/125.png,Loose Silky-bent,1,test,0.9480442,1,Weed
+data/raw/plant_seedlings/Common Chickweed/410.png,Common Chickweed,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/569.png,Scentless Mayweed,1,test,0.9998683,1,Weed
+data/raw/plant_seedlings/Black-grass/62.png,Black-grass,1,test,0.94784975,1,Weed
+data/raw/plant_seedlings/Cleavers/162.png,Cleavers,1,test,0.91202384,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/546.png,Scentless Mayweed,1,test,0.9999909,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/195.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Cleavers/27.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/445.png,Loose Silky-bent,1,test,0.9577543,1,Weed
+data/raw/plant_seedlings/Common Chickweed/23.png,Common Chickweed,1,test,0.99688315,1,Weed
+data/raw/plant_seedlings/Cleavers/51.png,Cleavers,1,test,0.9998083,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/571.png,Loose Silky-bent,1,test,0.9271077,1,Weed
+data/raw/plant_seedlings/Sugar Beet/310.png,Sugar Beet,0,test,0.0339404,0,Crop
+data/raw/plant_seedlings/Small-flowered Cranesbill/70.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Maize/8.png,Maize,0,test,0.0041831434,0,Crop
+data/raw/plant_seedlings/Common Chickweed/279.png,Common Chickweed,1,test,0.99999744,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/100.png,Loose Silky-bent,1,test,0.9897218,1,Weed
+data/raw/plant_seedlings/Maize/89.png,Maize,0,test,0.08096578,0,Crop
+data/raw/plant_seedlings/Black-grass/265.png,Black-grass,1,test,0.9987389,1,Weed
+data/raw/plant_seedlings/Charlock/231.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/312.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/193.png,Loose Silky-bent,1,test,0.9985253,1,Weed
+data/raw/plant_seedlings/Common Chickweed/252.png,Common Chickweed,1,test,0.9877238,1,Weed
+data/raw/plant_seedlings/Common Chickweed/352.png,Common Chickweed,1,test,0.99963695,1,Weed
+data/raw/plant_seedlings/Sugar Beet/293.png,Sugar Beet,0,test,1.5764156e-06,0,Crop
+data/raw/plant_seedlings/Sugar Beet/416.png,Sugar Beet,0,test,0.00020032607,0,Crop
+data/raw/plant_seedlings/Loose Silky-bent/497.png,Loose Silky-bent,1,test,0.99854213,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/123.png,Scentless Mayweed,1,test,0.9999997,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/109.png,Scentless Mayweed,1,test,0.99999547,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/727.png,Loose Silky-bent,1,test,0.98493874,1,Weed
+data/raw/plant_seedlings/Fat Hen/52.png,Fat Hen,1,test,0.9317568,1,Weed
+data/raw/plant_seedlings/Common Chickweed/3.png,Common Chickweed,1,test,0.9997227,1,Weed
+data/raw/plant_seedlings/Maize/217.png,Maize,0,test,0.2884268,0,Crop
+data/raw/plant_seedlings/Small-flowered Cranesbill/514.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Charlock/222.png,Charlock,1,test,0.9950724,1,Weed
+data/raw/plant_seedlings/Common wheat/131.png,Common Wheat,0,test,0.4814246,0,Crop
+data/raw/plant_seedlings/Black-grass/110.png,Black-grass,1,test,0.9998883,1,Weed
+data/raw/plant_seedlings/Common wheat/185.png,Common Wheat,0,test,0.1864052,0,Crop
+data/raw/plant_seedlings/Fat Hen/225.png,Fat Hen,1,test,0.99999946,1,Weed
+data/raw/plant_seedlings/Fat Hen/233.png,Fat Hen,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common wheat/195.png,Common Wheat,0,test,0.65230966,1,Weed
+data/raw/plant_seedlings/Common wheat/235.png,Common Wheat,0,test,0.68089914,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/485.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/673.png,Loose Silky-bent,1,test,0.99979794,1,Weed
+data/raw/plant_seedlings/Charlock/34.png,Charlock,1,test,0.9892259,1,Weed
+data/raw/plant_seedlings/Cleavers/131.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/419.png,Sugar Beet,0,test,0.012236917,0,Crop
+data/raw/plant_seedlings/Loose Silky-bent/625.png,Loose Silky-bent,1,test,0.99971527,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/542.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/341.png,Fat Hen,1,test,0.99909043,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/435.png,Small-flowered Cranesbill,1,test,0.9999975,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/207.png,Scentless Mayweed,1,test,0.99987626,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/54.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/540.png,Common Chickweed,1,test,0.9997932,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/24.png,Scentless Mayweed,1,test,0.99752027,1,Weed
+data/raw/plant_seedlings/Cleavers/130.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/669.png,Loose Silky-bent,1,test,0.99763143,1,Weed
+data/raw/plant_seedlings/Common Chickweed/178.png,Common Chickweed,1,test,0.99953794,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/225.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/603.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Black-grass/228.png,Black-grass,1,test,0.9848564,1,Weed
+data/raw/plant_seedlings/Maize/55.png,Maize,0,test,0.0014231104,0,Crop
+data/raw/plant_seedlings/Sugar Beet/422.png,Sugar Beet,0,test,0.2471368,0,Crop
+data/raw/plant_seedlings/Scentless Mayweed/550.png,Scentless Mayweed,1,test,0.99980944,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/4.png,Shepherd’s Purse,1,test,0.99674535,1,Weed
+data/raw/plant_seedlings/Black-grass/243.png,Black-grass,1,test,0.83635306,1,Weed
+data/raw/plant_seedlings/Sugar Beet/380.png,Sugar Beet,0,test,0.0017380167,0,Crop
+data/raw/plant_seedlings/Black-grass/177.png,Black-grass,1,test,0.9248125,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/90.png,Shepherd’s Purse,1,test,0.9999991,1,Weed
+data/raw/plant_seedlings/Common Chickweed/656.png,Common Chickweed,1,test,0.9999674,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/446.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/89.png,Common Chickweed,1,test,0.99998826,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/514.png,Scentless Mayweed,1,test,0.9939879,1,Weed
+data/raw/plant_seedlings/Charlock/47.png,Charlock,1,test,0.9999977,1,Weed
+data/raw/plant_seedlings/Fat Hen/394.png,Fat Hen,1,test,0.9909679,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/61.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/347.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/256.png,Fat Hen,1,test,0.9342843,1,Weed
+data/raw/plant_seedlings/Sugar Beet/379.png,Sugar Beet,0,test,0.0003209148,0,Crop
+data/raw/plant_seedlings/Fat Hen/383.png,Fat Hen,1,test,0.99826205,1,Weed
+data/raw/plant_seedlings/Cleavers/338.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/412.png,Common Chickweed,1,test,0.9999995,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/523.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Charlock/160.png,Charlock,1,test,0.999996,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/377.png,Scentless Mayweed,1,test,0.99995375,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/73.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/655.png,Common Chickweed,1,test,0.9987349,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/161.png,Scentless Mayweed,1,test,0.9982696,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/390.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Maize/177.png,Maize,0,test,8.2006016e-05,0,Crop
+data/raw/plant_seedlings/Sugar Beet/55.png,Sugar Beet,0,test,0.11398556,0,Crop
+data/raw/plant_seedlings/Small-flowered Cranesbill/464.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/180.png,Scentless Mayweed,1,test,0.96485364,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/187.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Black-grass/311.png,Black-grass,1,test,0.96948344,1,Weed
+data/raw/plant_seedlings/Charlock/249.png,Charlock,1,test,0.82383704,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/30.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/110.png,Loose Silky-bent,1,test,0.99359435,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/59.png,Loose Silky-bent,1,test,0.9904031,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/30.png,Shepherd’s Purse,1,test,0.9999998,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/391.png,Scentless Mayweed,1,test,0.9763298,1,Weed
+data/raw/plant_seedlings/Cleavers/337.png,Cleavers,1,test,0.9999942,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/215.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Cleavers/283.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/170.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/173.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/562.png,Scentless Mayweed,1,test,0.9998064,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/366.png,Loose Silky-bent,1,test,0.9994118,1,Weed
+data/raw/plant_seedlings/Common wheat/90.png,Common Wheat,0,test,0.00030951147,0,Crop
+data/raw/plant_seedlings/Cleavers/30.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Cleavers/323.png,Cleavers,1,test,0.9999997,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/508.png,Loose Silky-bent,1,test,0.9958637,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/27.png,Scentless Mayweed,1,test,0.99881184,1,Weed
+data/raw/plant_seedlings/Sugar Beet/396.png,Sugar Beet,0,test,4.218353e-05,0,Crop
+data/raw/plant_seedlings/Common Chickweed/557.png,Common Chickweed,1,test,0.9999996,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/174.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Charlock/106.png,Charlock,1,test,0.9999839,1,Weed
+data/raw/plant_seedlings/Common Chickweed/19.png,Common Chickweed,1,test,0.9980802,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/28.png,Scentless Mayweed,1,test,0.99984753,1,Weed
+data/raw/plant_seedlings/Black-grass/314.png,Black-grass,1,test,0.9954238,1,Weed
+data/raw/plant_seedlings/Sugar Beet/146.png,Sugar Beet,0,test,0.028318364,0,Crop
+data/raw/plant_seedlings/Loose Silky-bent/245.png,Loose Silky-bent,1,test,0.9999478,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/173.png,Scentless Mayweed,1,test,0.9999878,1,Weed
+data/raw/plant_seedlings/Black-grass/2.png,Black-grass,1,test,0.9765817,1,Weed
+data/raw/plant_seedlings/Fat Hen/422.png,Fat Hen,1,test,0.811368,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/350.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/606.png,Loose Silky-bent,1,test,0.9983033,1,Weed
+data/raw/plant_seedlings/Maize/206.png,Maize,0,test,1.6746258e-06,0,Crop
+data/raw/plant_seedlings/Black-grass/54.png,Black-grass,1,test,0.99936527,1,Weed
+data/raw/plant_seedlings/Common Chickweed/496.png,Common Chickweed,1,test,0.9999799,1,Weed
+data/raw/plant_seedlings/Cleavers/288.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/461.png,Fat Hen,1,test,0.92207086,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/547.png,Loose Silky-bent,1,test,0.9987209,1,Weed
+data/raw/plant_seedlings/Cleavers/100.png,Cleavers,1,test,0.9999999,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/268.png,Small-flowered Cranesbill,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Maize/182.png,Maize,0,test,3.271741e-14,0,Crop
+data/raw/plant_seedlings/Small-flowered Cranesbill/37.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common wheat/88.png,Common Wheat,0,test,0.0014655308,0,Crop
+data/raw/plant_seedlings/Scentless Mayweed/171.png,Scentless Mayweed,1,test,0.99999624,1,Weed
+data/raw/plant_seedlings/Charlock/125.png,Charlock,1,test,0.99999356,1,Weed
+data/raw/plant_seedlings/Charlock/9.png,Charlock,1,test,0.98179334,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/276.png,Shepherd’s Purse,1,test,0.8949536,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/491.png,Scentless Mayweed,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Fat Hen/32.png,Fat Hen,1,test,0.99138385,1,Weed
+data/raw/plant_seedlings/Fat Hen/495.png,Fat Hen,1,test,0.99993527,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/202.png,Scentless Mayweed,1,test,0.99693745,1,Weed
+data/raw/plant_seedlings/Common Chickweed/7.png,Common Chickweed,1,test,0.9976099,1,Weed
+data/raw/plant_seedlings/Cleavers/25.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/480.png,Scentless Mayweed,1,test,0.9999911,1,Weed
+data/raw/plant_seedlings/Sugar Beet/156.png,Sugar Beet,0,test,0.0023040932,0,Crop
+data/raw/plant_seedlings/Fat Hen/304.png,Fat Hen,1,test,0.9365692,1,Weed
+data/raw/plant_seedlings/Black-grass/29.png,Black-grass,1,test,0.98794085,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/568.png,Loose Silky-bent,1,test,0.99322003,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/173.png,Loose Silky-bent,1,test,0.94963473,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/761.png,Loose Silky-bent,1,test,0.9994542,1,Weed
+data/raw/plant_seedlings/Black-grass/77.png,Black-grass,1,test,0.9872282,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/209.png,Loose Silky-bent,1,test,0.99998784,1,Weed
+data/raw/plant_seedlings/Fat Hen/117.png,Fat Hen,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common wheat/160.png,Common Wheat,0,test,0.9225068,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/317.png,Scentless Mayweed,1,test,0.9997109,1,Weed
+data/raw/plant_seedlings/Maize/98.png,Maize,0,test,3.8459555e-05,0,Crop
+data/raw/plant_seedlings/Scentless Mayweed/219.png,Scentless Mayweed,1,test,0.8924053,1,Weed
+data/raw/plant_seedlings/Common Chickweed/88.png,Common Chickweed,1,test,0.9999804,1,Weed
+data/raw/plant_seedlings/Cleavers/254.png,Cleavers,1,test,0.9783967,1,Weed
+data/raw/plant_seedlings/Charlock/139.png,Charlock,1,test,0.99998,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/145.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/22.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/365.png,Common Chickweed,1,test,0.9999945,1,Weed
+data/raw/plant_seedlings/Cleavers/264.png,Cleavers,1,test,0.993293,1,Weed
+data/raw/plant_seedlings/Fat Hen/10.png,Fat Hen,1,test,0.22982928,0,Crop
+data/raw/plant_seedlings/Charlock/64.png,Charlock,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/346.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/1.png,Fat Hen,1,test,0.5252234,1,Weed
+data/raw/plant_seedlings/Cleavers/170.png,Cleavers,1,test,0.9999997,1,Weed
+data/raw/plant_seedlings/Common Chickweed/588.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/41.png,Fat Hen,1,test,0.59023845,1,Weed
+data/raw/plant_seedlings/Common Chickweed/707.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/250.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/299.png,Scentless Mayweed,1,test,0.999999,1,Weed
+data/raw/plant_seedlings/Sugar Beet/42.png,Sugar Beet,0,test,0.1955291,0,Crop
+data/raw/plant_seedlings/Maize/212.png,Maize,0,test,0.0072183427,0,Crop
+data/raw/plant_seedlings/Common Chickweed/200.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/222.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/122.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/34.png,Sugar Beet,0,test,0.00025757973,0,Crop
+data/raw/plant_seedlings/Small-flowered Cranesbill/65.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/343.png,Fat Hen,1,test,0.9999461,1,Weed
+data/raw/plant_seedlings/Cleavers/318.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/329.png,Fat Hen,1,test,0.9777036,1,Weed
+data/raw/plant_seedlings/Charlock/191.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/138.png,Scentless Mayweed,1,test,0.9997516,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/140.png,Scentless Mayweed,1,test,0.9988872,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/316.png,Loose Silky-bent,1,test,0.9976269,1,Weed
+data/raw/plant_seedlings/Black-grass/269.png,Black-grass,1,test,0.27382213,0,Crop
+data/raw/plant_seedlings/Sugar Beet/222.png,Sugar Beet,0,test,0.4987861,0,Crop
+data/raw/plant_seedlings/Charlock/165.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/50.png,Scentless Mayweed,1,test,0.99997675,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/450.png,Loose Silky-bent,1,test,0.9866616,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/357.png,Small-flowered Cranesbill,1,test,0.99999917,1,Weed
+data/raw/plant_seedlings/Charlock/162.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/88.png,Sugar Beet,0,test,3.7849102e-07,0,Crop
+data/raw/plant_seedlings/Common wheat/243.png,Common Wheat,0,test,0.019834913,0,Crop
+data/raw/plant_seedlings/Cleavers/4.png,Cleavers,1,test,0.70184696,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/507.png,Scentless Mayweed,1,test,0.99999356,1,Weed
+data/raw/plant_seedlings/Charlock/3.png,Charlock,1,test,0.9999992,1,Weed
+data/raw/plant_seedlings/Common Chickweed/390.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Black-grass/38.png,Black-grass,1,test,0.9709377,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/62.png,Scentless Mayweed,1,test,0.9995959,1,Weed
+data/raw/plant_seedlings/Charlock/313.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/646.png,Loose Silky-bent,1,test,0.9978502,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/448.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/418.png,Sugar Beet,0,test,3.9558385e-05,0,Crop
+data/raw/plant_seedlings/Black-grass/93.png,Black-grass,1,test,0.9980792,1,Weed
+data/raw/plant_seedlings/Sugar Beet/131.png,Sugar Beet,0,test,0.00033513858,0,Crop
+data/raw/plant_seedlings/Scentless Mayweed/488.png,Scentless Mayweed,1,test,0.99993753,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/164.png,Shepherd’s Purse,1,test,0.9999977,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/96.png,Shepherd’s Purse,1,test,0.9999573,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/128.png,Small-flowered Cranesbill,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Sugar Beet/345.png,Sugar Beet,0,test,0.090007104,0,Crop
+data/raw/plant_seedlings/Maize/125.png,Maize,0,test,4.998748e-09,0,Crop
+data/raw/plant_seedlings/Loose Silky-bent/552.png,Loose Silky-bent,1,test,0.9930271,1,Weed
+data/raw/plant_seedlings/Maize/207.png,Maize,0,test,0.0010525268,0,Crop
+data/raw/plant_seedlings/Common Chickweed/506.png,Common Chickweed,1,test,0.9923998,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/746.png,Loose Silky-bent,1,test,0.99374336,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/459.png,Small-flowered Cranesbill,1,test,0.99999887,1,Weed
+data/raw/plant_seedlings/Sugar Beet/191.png,Sugar Beet,0,test,0.051722858,0,Crop
+data/raw/plant_seedlings/Loose Silky-bent/691.png,Loose Silky-bent,1,test,0.9956824,1,Weed
+data/raw/plant_seedlings/Cleavers/294.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/418.png,Small-flowered Cranesbill,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Common wheat/67.png,Common Wheat,0,test,0.0036853815,0,Crop
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/222.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/575.png,Loose Silky-bent,1,test,0.99956477,1,Weed
+data/raw/plant_seedlings/Common Chickweed/253.png,Common Chickweed,1,test,0.99237084,1,Weed
+data/raw/plant_seedlings/Black-grass/91.png,Black-grass,1,test,0.9904408,1,Weed
+data/raw/plant_seedlings/Common Chickweed/30.png,Common Chickweed,1,test,0.9900583,1,Weed
+data/raw/plant_seedlings/Sugar Beet/126.png,Sugar Beet,0,test,0.0010081822,0,Crop
+data/raw/plant_seedlings/Loose Silky-bent/647.png,Loose Silky-bent,1,test,0.99554867,1,Weed
+data/raw/plant_seedlings/Fat Hen/385.png,Fat Hen,1,test,1.0,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/63.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Black-grass/135.png,Black-grass,1,test,0.9748593,1,Weed
+data/raw/plant_seedlings/Fat Hen/493.png,Fat Hen,1,test,0.9791377,1,Weed
+data/raw/plant_seedlings/Maize/87.png,Maize,0,test,2.8381945e-07,0,Crop
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/33.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Maize/219.png,Maize,0,test,0.00022838471,0,Crop
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/260.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/251.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Charlock/340.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/144.png,Sugar Beet,0,test,0.0013412636,0,Crop
+data/raw/plant_seedlings/Loose Silky-bent/293.png,Loose Silky-bent,1,test,0.9815794,1,Weed
+data/raw/plant_seedlings/Sugar Beet/217.png,Sugar Beet,0,test,0.005574995,0,Crop
+data/raw/plant_seedlings/Sugar Beet/61.png,Sugar Beet,0,test,2.8450624e-09,0,Crop
+data/raw/plant_seedlings/Loose Silky-bent/367.png,Loose Silky-bent,1,test,0.9976356,1,Weed
+data/raw/plant_seedlings/Common Chickweed/383.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/305.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/331.png,Sugar Beet,0,test,0.00016003504,0,Crop
+data/raw/plant_seedlings/Scentless Mayweed/292.png,Scentless Mayweed,1,test,0.99997807,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/10.png,Shepherd’s Purse,1,test,0.9999921,1,Weed
+data/raw/plant_seedlings/Common Chickweed/335.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/63.png,Scentless Mayweed,1,test,0.9999896,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/358.png,Scentless Mayweed,1,test,0.9999993,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/676.png,Loose Silky-bent,1,test,0.9855917,1,Weed
+data/raw/plant_seedlings/Maize/6.png,Maize,0,test,4.1331057e-07,0,Crop
+data/raw/plant_seedlings/Sugar Beet/82.png,Sugar Beet,0,test,8.493377e-10,0,Crop
+data/raw/plant_seedlings/Charlock/219.png,Charlock,1,test,0.99980587,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/85.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/119.png,Scentless Mayweed,1,test,0.99984914,1,Weed
+data/raw/plant_seedlings/Common Chickweed/416.png,Common Chickweed,1,test,0.99997455,1,Weed
+data/raw/plant_seedlings/Charlock/446.png,Charlock,1,test,0.9929833,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/10.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/312.png,Common Chickweed,1,test,0.99999964,1,Weed
+data/raw/plant_seedlings/Common Chickweed/291.png,Common Chickweed,1,test,0.9999995,1,Weed
+data/raw/plant_seedlings/Cleavers/209.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/697.png,Loose Silky-bent,1,test,0.9625882,1,Weed
+data/raw/plant_seedlings/Charlock/123.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Maize/31.png,Maize,0,test,1.5718024e-06,0,Crop
+data/raw/plant_seedlings/Maize/47.png,Maize,0,test,1.0518039e-07,0,Crop
+data/raw/plant_seedlings/Common wheat/191.png,Common Wheat,0,test,0.7529258,1,Weed
+data/raw/plant_seedlings/Common Chickweed/193.png,Common Chickweed,1,test,0.99999547,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/204.png,Scentless Mayweed,1,test,0.9853845,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/270.png,Small-flowered Cranesbill,1,test,0.99999404,1,Weed
+data/raw/plant_seedlings/Common wheat/66.png,Common Wheat,0,test,0.01912079,0,Crop
+data/raw/plant_seedlings/Common Chickweed/188.png,Common Chickweed,1,test,0.99995434,1,Weed
+data/raw/plant_seedlings/Common Chickweed/430.png,Common Chickweed,1,test,0.9999995,1,Weed
+data/raw/plant_seedlings/Fat Hen/350.png,Fat Hen,1,test,0.8979772,1,Weed
+data/raw/plant_seedlings/Common Chickweed/360.png,Common Chickweed,1,test,0.99995935,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/547.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/402.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/344.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/224.png,Loose Silky-bent,1,test,0.9998213,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/130.png,Loose Silky-bent,1,test,0.998657,1,Weed
+data/raw/plant_seedlings/Common Chickweed/270.png,Common Chickweed,1,test,0.9999769,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/524.png,Loose Silky-bent,1,test,0.99633,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/229.png,Loose Silky-bent,1,test,0.9998373,1,Weed
+data/raw/plant_seedlings/Charlock/288.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/407.png,Scentless Mayweed,1,test,0.99947447,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/454.png,Scentless Mayweed,1,test,0.9999994,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/532.png,Loose Silky-bent,1,test,0.71300316,1,Weed
+data/raw/plant_seedlings/Fat Hen/421.png,Fat Hen,1,test,0.71128327,1,Weed
+data/raw/plant_seedlings/Fat Hen/336.png,Fat Hen,1,test,0.9858885,1,Weed
+data/raw/plant_seedlings/Common Chickweed/558.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/381.png,Common Chickweed,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/562.png,Small-flowered Cranesbill,1,test,0.99999785,1,Weed
+data/raw/plant_seedlings/Common Chickweed/21.png,Common Chickweed,1,test,0.99272686,1,Weed
+data/raw/plant_seedlings/Black-grass/100.png,Black-grass,1,test,0.9754762,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/462.png,Small-flowered Cranesbill,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Cleavers/116.png,Cleavers,1,test,0.99996316,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/274.png,Loose Silky-bent,1,test,0.992898,1,Weed
+data/raw/plant_seedlings/Fat Hen/16.png,Fat Hen,1,test,0.99985427,1,Weed
+data/raw/plant_seedlings/Common Chickweed/640.png,Common Chickweed,1,test,0.99793136,1,Weed
+data/raw/plant_seedlings/Common Chickweed/609.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/208.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Charlock/11.png,Charlock,1,test,0.99984956,1,Weed
+data/raw/plant_seedlings/Fat Hen/11.png,Fat Hen,1,test,0.83706033,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/79.png,Loose Silky-bent,1,test,0.95374256,1,Weed
+data/raw/plant_seedlings/Charlock/394.png,Charlock,1,test,0.99999833,1,Weed
+data/raw/plant_seedlings/Common Chickweed/533.png,Common Chickweed,1,test,0.99967825,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/178.png,Scentless Mayweed,1,test,0.9999767,1,Weed
+data/raw/plant_seedlings/Charlock/17.png,Charlock,1,test,0.99999976,1,Weed
+data/raw/plant_seedlings/Common wheat/212.png,Common Wheat,0,test,0.057382748,0,Crop
+data/raw/plant_seedlings/Sugar Beet/92.png,Sugar Beet,0,test,0.5662966,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/490.png,Loose Silky-bent,1,test,0.99889475,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/187.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/217.png,Scentless Mayweed,1,test,0.9993155,1,Weed
+data/raw/plant_seedlings/Common Chickweed/405.png,Common Chickweed,1,test,0.9999927,1,Weed
+data/raw/plant_seedlings/Cleavers/208.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/566.png,Small-flowered Cranesbill,1,test,0.999597,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/258.png,Loose Silky-bent,1,test,0.99931306,1,Weed
+data/raw/plant_seedlings/Common wheat/144.png,Common Wheat,0,test,0.049953286,0,Crop
+data/raw/plant_seedlings/Charlock/39.png,Charlock,1,test,0.99761826,1,Weed
+data/raw/plant_seedlings/Fat Hen/19.png,Fat Hen,1,test,0.019299347,0,Crop
+data/raw/plant_seedlings/Small-flowered Cranesbill/548.png,Small-flowered Cranesbill,1,test,0.9999999,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/250.png,Loose Silky-bent,1,test,0.9892139,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/221.png,Loose Silky-bent,1,test,0.9950209,1,Weed
+data/raw/plant_seedlings/Common wheat/73.png,Common Wheat,0,test,0.24997172,0,Crop
+data/raw/plant_seedlings/Sugar Beet/173.png,Sugar Beet,0,test,2.0592036e-06,0,Crop
+data/raw/plant_seedlings/Small-flowered Cranesbill/190.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/426.png,Sugar Beet,0,test,7.5599264e-06,0,Crop
+data/raw/plant_seedlings/Black-grass/171.png,Black-grass,1,test,0.9926686,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/137.png,Shepherd’s Purse,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Common wheat/10.png,Common Wheat,0,test,0.048974287,0,Crop
+data/raw/plant_seedlings/Common Chickweed/240.png,Common Chickweed,1,test,0.99986625,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/172.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/348.png,Fat Hen,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/107.png,Loose Silky-bent,1,test,0.9908599,1,Weed
+data/raw/plant_seedlings/Maize/29.png,Maize,0,test,0.017422188,0,Crop
+data/raw/plant_seedlings/Charlock/183.png,Charlock,1,test,0.9999999,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/371.png,Loose Silky-bent,1,test,0.9979641,1,Weed
+data/raw/plant_seedlings/Cleavers/247.png,Cleavers,1,test,0.993656,1,Weed
+data/raw/plant_seedlings/Sugar Beet/261.png,Sugar Beet,0,test,0.5822139,1,Weed
+data/raw/plant_seedlings/Charlock/371.png,Charlock,1,test,0.9999976,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/155.png,Shepherd’s Purse,1,test,0.9999999,1,Weed
+data/raw/plant_seedlings/Charlock/439.png,Charlock,1,test,0.9999999,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/506.png,Scentless Mayweed,1,test,0.9991328,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/680.png,Loose Silky-bent,1,test,0.9115254,1,Weed
+data/raw/plant_seedlings/Charlock/348.png,Charlock,1,test,0.99543995,1,Weed
+data/raw/plant_seedlings/Fat Hen/399.png,Fat Hen,1,test,0.9999786,1,Weed
+data/raw/plant_seedlings/Maize/48.png,Maize,0,test,5.511411e-06,0,Crop
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/262.png,Shepherd’s Purse,1,test,0.99853057,1,Weed
+data/raw/plant_seedlings/Fat Hen/433.png,Fat Hen,1,test,0.9282281,1,Weed
+data/raw/plant_seedlings/Sugar Beet/272.png,Sugar Beet,0,test,7.1090986e-09,0,Crop
+data/raw/plant_seedlings/Sugar Beet/372.png,Sugar Beet,0,test,0.37352318,0,Crop
+data/raw/plant_seedlings/Loose Silky-bent/498-1.png,Loose Silky-bent,1,test,0.9969518,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/22.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Charlock/236.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/188.png,Sugar Beet,0,test,0.0006912226,0,Crop
+data/raw/plant_seedlings/Black-grass/334.png,Black-grass,1,test,0.9326676,1,Weed
+data/raw/plant_seedlings/Common Chickweed/175.png,Common Chickweed,1,test,0.9998916,1,Weed
+data/raw/plant_seedlings/Common Chickweed/41.png,Common Chickweed,1,test,0.99992245,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/286.png,Small-flowered Cranesbill,1,test,0.9999994,1,Weed
+data/raw/plant_seedlings/Fat Hen/115.png,Fat Hen,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Charlock/297.png,Charlock,1,test,0.9997991,1,Weed
+data/raw/plant_seedlings/Sugar Beet/414.png,Sugar Beet,0,test,0.00021669379,0,Crop
+data/raw/plant_seedlings/Fat Hen/408.png,Fat Hen,1,test,0.99993736,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/449.png,Loose Silky-bent,1,test,0.99317366,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/378.png,Scentless Mayweed,1,test,0.99999964,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/452.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/648.png,Loose Silky-bent,1,test,0.99680614,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/84.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/89.png,Scentless Mayweed,1,test,0.9999989,1,Weed
+data/raw/plant_seedlings/Cleavers/196.png,Cleavers,1,test,0.96346086,1,Weed
+data/raw/plant_seedlings/Fat Hen/268.png,Fat Hen,1,test,0.9745605,1,Weed
+data/raw/plant_seedlings/Common wheat/199.png,Common Wheat,0,test,0.060038086,0,Crop
+data/raw/plant_seedlings/Fat Hen/428.png,Fat Hen,1,test,0.8638445,1,Weed
+data/raw/plant_seedlings/Sugar Beet/313.png,Sugar Beet,0,test,0.019976871,0,Crop
+data/raw/plant_seedlings/Loose Silky-bent/546.png,Loose Silky-bent,1,test,0.9989335,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/580.png,Scentless Mayweed,1,test,0.99995476,1,Weed
+data/raw/plant_seedlings/Fat Hen/318.png,Fat Hen,1,test,0.93055373,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/280.png,Loose Silky-bent,1,test,0.99925107,1,Weed
+data/raw/plant_seedlings/Common Chickweed/95.png,Common Chickweed,1,test,0.9999117,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/764.png,Loose Silky-bent,1,test,0.98850656,1,Weed
+data/raw/plant_seedlings/Charlock/225.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/627.png,Common Chickweed,1,test,0.99999577,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/728.png,Loose Silky-bent,1,test,0.99775356,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/148.png,Loose Silky-bent,1,test,0.999309,1,Weed
+data/raw/plant_seedlings/Sugar Beet/425.png,Sugar Beet,0,test,8.658805e-08,0,Crop
+data/raw/plant_seedlings/Maize/137.png,Maize,0,test,0.0004425001,0,Crop
+data/raw/plant_seedlings/Fat Hen/536.png,Fat Hen,1,test,0.98789364,1,Weed
+data/raw/plant_seedlings/Common wheat/223.png,Common Wheat,0,test,0.0048293457,0,Crop
+data/raw/plant_seedlings/Common Chickweed/590.png,Common Chickweed,1,test,0.9998581,1,Weed
+data/raw/plant_seedlings/Common wheat/51.png,Common Wheat,0,test,0.0034344783,0,Crop
+data/raw/plant_seedlings/Cleavers/250.png,Cleavers,1,test,0.9716339,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/281.png,Small-flowered Cranesbill,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/282.png,Loose Silky-bent,1,test,0.9925925,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/68.png,Scentless Mayweed,1,test,0.99984133,1,Weed
+data/raw/plant_seedlings/Sugar Beet/58.png,Sugar Beet,0,test,0.0055876807,0,Crop
+data/raw/plant_seedlings/Fat Hen/198.png,Fat Hen,1,test,0.9708548,1,Weed
+data/raw/plant_seedlings/Maize/114.png,Maize,0,test,3.196435e-09,0,Crop
+data/raw/plant_seedlings/Fat Hen/372.png,Fat Hen,1,test,0.91992235,1,Weed
+data/raw/plant_seedlings/Fat Hen/316.png,Fat Hen,1,test,0.5874357,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/474.png,Scentless Mayweed,1,test,0.9999872,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/511.png,Scentless Mayweed,1,test,0.9997306,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/474.png,Loose Silky-bent,1,test,0.9567077,1,Weed
+data/raw/plant_seedlings/Fat Hen/126.png,Fat Hen,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/377.png,Loose Silky-bent,1,test,0.99979633,1,Weed
+data/raw/plant_seedlings/Sugar Beet/148.png,Sugar Beet,0,test,0.1341402,0,Crop
+data/raw/plant_seedlings/Common wheat/9.png,Common Wheat,0,test,0.1610053,0,Crop
+data/raw/plant_seedlings/Maize/82.png,Maize,0,test,7.2198003e-07,0,Crop
+data/raw/plant_seedlings/Small-flowered Cranesbill/1.png,Small-flowered Cranesbill,1,test,0.99999845,1,Weed
+data/raw/plant_seedlings/Fat Hen/325.png,Fat Hen,1,test,0.991821,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/57.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Maize/233.png,Maize,0,test,2.1352262e-05,0,Crop
+data/raw/plant_seedlings/Charlock/407.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/590.png,Scentless Mayweed,1,test,0.9999746,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/196.png,Scentless Mayweed,1,test,0.98751813,1,Weed
+data/raw/plant_seedlings/Cleavers/163.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/401.png,Sugar Beet,0,test,0.0028026616,0,Crop
+data/raw/plant_seedlings/Loose Silky-bent/464.png,Loose Silky-bent,1,test,0.9631416,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/419.png,Loose Silky-bent,1,test,0.99951154,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/168.png,Loose Silky-bent,1,test,0.9612928,1,Weed
+data/raw/plant_seedlings/Sugar Beet/269.png,Sugar Beet,0,test,4.7542573e-05,0,Crop
+data/raw/plant_seedlings/Common Chickweed/137.png,Common Chickweed,1,test,0.99999505,1,Weed
+data/raw/plant_seedlings/Common Chickweed/702.png,Common Chickweed,1,test,0.9995843,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/486.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/493.png,Scentless Mayweed,1,test,0.9993626,1,Weed
+data/raw/plant_seedlings/Sugar Beet/5.png,Sugar Beet,0,test,0.0037291772,0,Crop
+data/raw/plant_seedlings/Common wheat/175.png,Common Wheat,0,test,0.0019483252,0,Crop
+data/raw/plant_seedlings/Fat Hen/287.png,Fat Hen,1,test,0.7317578,1,Weed
+data/raw/plant_seedlings/Sugar Beet/294.png,Sugar Beet,0,test,0.011988482,0,Crop
+data/raw/plant_seedlings/Loose Silky-bent/417.png,Loose Silky-bent,1,test,0.99873465,1,Weed
+data/raw/plant_seedlings/Black-grass/246.png,Black-grass,1,test,0.99348134,1,Weed
+data/raw/plant_seedlings/Common wheat/99.png,Common Wheat,0,test,0.022706373,0,Crop
+data/raw/plant_seedlings/Sugar Beet/329.png,Sugar Beet,0,test,1.9367413e-08,0,Crop
+data/raw/plant_seedlings/Black-grass/118.png,Black-grass,1,test,0.99902225,1,Weed
+data/raw/plant_seedlings/Sugar Beet/382.png,Sugar Beet,0,test,0.008602744,0,Crop
+data/raw/plant_seedlings/Sugar Beet/378.png,Sugar Beet,0,test,8.068193e-05,0,Crop
+data/raw/plant_seedlings/Cleavers/333.png,Cleavers,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/700.png,Loose Silky-bent,1,test,0.9052791,1,Weed
+data/raw/plant_seedlings/Charlock/50.png,Charlock,1,test,0.99999976,1,Weed
+data/raw/plant_seedlings/Cleavers/329.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Cleavers/112.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/93.png,Scentless Mayweed,1,test,0.9949585,1,Weed
+data/raw/plant_seedlings/Cleavers/284.png,Cleavers,1,test,0.99999547,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/384.png,Scentless Mayweed,1,test,0.99999475,1,Weed
+data/raw/plant_seedlings/Cleavers/31.png,Cleavers,1,test,0.9999935,1,Weed
+data/raw/plant_seedlings/Common Chickweed/447.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Maize/256.png,Maize,0,test,9.348807e-15,0,Crop
+data/raw/plant_seedlings/Maize/200.png,Maize,0,test,0.0017591252,0,Crop
+data/raw/plant_seedlings/Small-flowered Cranesbill/161.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/627.png,Loose Silky-bent,1,test,0.9950335,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/510.png,Small-flowered Cranesbill,1,test,0.9999978,1,Weed
+data/raw/plant_seedlings/Common Chickweed/460.png,Common Chickweed,1,test,0.9999175,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/375.png,Scentless Mayweed,1,test,0.99999875,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/529.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Charlock/105.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Cleavers/133.png,Cleavers,1,test,0.69728947,1,Weed
+data/raw/plant_seedlings/Charlock/448.png,Charlock,1,test,0.99998456,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/160.png,Scentless Mayweed,1,test,0.99997807,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/612.png,Loose Silky-bent,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Black-grass/98.png,Black-grass,1,test,0.9392038,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/318.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/311.png,Fat Hen,1,test,0.8762962,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/199.png,Scentless Mayweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/629.png,Common Chickweed,1,test,0.99911,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/334.png,Scentless Mayweed,1,test,0.9999877,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/451.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/354.png,Scentless Mayweed,1,test,0.99998665,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/551.png,Scentless Mayweed,1,test,0.99957645,1,Weed
+data/raw/plant_seedlings/Black-grass/213.png,Black-grass,1,test,0.83291864,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/203.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/283.png,Fat Hen,1,test,0.94294155,1,Weed
+data/raw/plant_seedlings/Cleavers/71.png,Cleavers,1,test,0.9999448,1,Weed
+data/raw/plant_seedlings/Charlock/418.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Cleavers/252.png,Cleavers,1,test,0.9999957,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/563.png,Scentless Mayweed,1,test,0.99998814,1,Weed
+data/raw/plant_seedlings/Charlock/235.png,Charlock,1,test,0.99999994,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/13.png,Loose Silky-bent,1,test,0.9989535,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/604-4.png,Loose Silky-bent,1,test,0.9999757,1,Weed
+data/raw/plant_seedlings/Charlock/354.png,Charlock,1,test,0.9989119,1,Weed
+data/raw/plant_seedlings/Maize/68.png,Maize,0,test,4.637649e-13,0,Crop
+data/raw/plant_seedlings/Charlock/316.png,Charlock,1,test,0.9999799,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/576.png,Loose Silky-bent,1,test,0.9905962,1,Weed
+data/raw/plant_seedlings/Common Chickweed/43.png,Common Chickweed,1,test,0.9966804,1,Weed
+data/raw/plant_seedlings/Common wheat/102.png,Common Wheat,0,test,0.026327405,0,Crop
+data/raw/plant_seedlings/Maize/76.png,Maize,0,test,0.79333997,1,Weed
+data/raw/plant_seedlings/Common Chickweed/618.png,Common Chickweed,1,test,0.9783918,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/720.png,Loose Silky-bent,1,test,0.85557544,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/103.png,Loose Silky-bent,1,test,0.99986637,1,Weed
+data/raw/plant_seedlings/Black-grass/136.png,Black-grass,1,test,0.85687524,1,Weed
+data/raw/plant_seedlings/Common Chickweed/44.png,Common Chickweed,1,test,0.9999998,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/786.png,Loose Silky-bent,1,test,0.9852579,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/80.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Sugar Beet/237.png,Sugar Beet,0,test,0.054894317,0,Crop
+data/raw/plant_seedlings/Scentless Mayweed/298.png,Scentless Mayweed,1,test,0.9999998,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/97.png,Shepherd’s Purse,1,test,0.9954566,1,Weed
+data/raw/plant_seedlings/Cleavers/277.png,Cleavers,1,test,0.9999998,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/10.png,Scentless Mayweed,1,test,0.9999773,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/511.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Cleavers/35.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/237.png,Common Chickweed,1,test,0.99959815,1,Weed
+data/raw/plant_seedlings/Charlock/7.png,Charlock,1,test,0.9997026,1,Weed
+data/raw/plant_seedlings/Common Chickweed/646.png,Common Chickweed,1,test,0.9999732,1,Weed
+data/raw/plant_seedlings/Cleavers/220.png,Cleavers,1,test,0.9999997,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/311.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/604.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/36.png,Loose Silky-bent,1,test,0.994048,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/40.png,Shepherd’s Purse,1,test,0.9999994,1,Weed
+data/raw/plant_seedlings/Common Chickweed/546.png,Common Chickweed,1,test,0.99999803,1,Weed
+data/raw/plant_seedlings/Cleavers/187.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/576.png,Common Chickweed,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/139.png,Small-flowered Cranesbill,1,test,0.9999996,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/523.png,Loose Silky-bent,1,test,0.9997609,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/51.png,Scentless Mayweed,1,test,0.99990046,1,Weed
+data/raw/plant_seedlings/Cleavers/96.png,Cleavers,1,test,0.9999787,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/452.png,Scentless Mayweed,1,test,0.9901714,1,Weed
+data/raw/plant_seedlings/Fat Hen/303.png,Fat Hen,1,test,0.8022814,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/17.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Maize/164.png,Maize,0,test,3.3368096e-07,0,Crop
+data/raw/plant_seedlings/Cleavers/228.png,Cleavers,1,test,0.9999969,1,Weed
+data/raw/plant_seedlings/Black-grass/254.png,Black-grass,1,test,0.99667466,1,Weed
+data/raw/plant_seedlings/Fat Hen/20.png,Fat Hen,1,test,0.9034314,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/630.png,Loose Silky-bent,1,test,0.9998727,1,Weed
+data/raw/plant_seedlings/Charlock/112.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Black-grass/209.png,Black-grass,1,test,0.991169,1,Weed
+data/raw/plant_seedlings/Black-grass/117.png,Black-grass,1,test,0.9698607,1,Weed
+data/raw/plant_seedlings/Black-grass/241.png,Black-grass,1,test,0.97739315,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/476.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/149.png,Fat Hen,1,test,0.9503383,1,Weed
+data/raw/plant_seedlings/Fat Hen/447.png,Fat Hen,1,test,0.70013106,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/11.png,Shepherd’s Purse,1,test,0.997673,1,Weed
+data/raw/plant_seedlings/Common Chickweed/238.png,Common Chickweed,1,test,0.864696,1,Weed
+data/raw/plant_seedlings/Black-grass/214.png,Black-grass,1,test,0.9470127,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/172.png,Scentless Mayweed,1,test,0.9999782,1,Weed
+data/raw/plant_seedlings/Charlock/428.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Charlock/48.png,Charlock,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/236.png,Common Chickweed,1,test,0.99867517,1,Weed
+data/raw/plant_seedlings/Sugar Beet/315.png,Sugar Beet,0,test,0.0016909245,0,Crop
+data/raw/plant_seedlings/Loose Silky-bent/95.png,Loose Silky-bent,1,test,0.99358344,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/113.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/178.png,Fat Hen,1,test,0.9600742,1,Weed
+data/raw/plant_seedlings/Cleavers/325.png,Cleavers,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Fat Hen/270.png,Fat Hen,1,test,0.9711025,1,Weed
+data/raw/plant_seedlings/Loose Silky-bent/85.png,Loose Silky-bent,1,test,0.99607617,1,Weed
+data/raw/plant_seedlings/Fat Hen/261.png,Fat Hen,1,test,0.8541889,1,Weed
+data/raw/plant_seedlings/Black-grass/166.png,Black-grass,1,test,0.997071,1,Weed
+data/raw/plant_seedlings/Common Chickweed/239.png,Common Chickweed,1,test,0.98017687,1,Weed
+data/raw/plant_seedlings/Common Chickweed/628.png,Common Chickweed,1,test,0.9464391,1,Weed
+data/raw/plant_seedlings/Common Chickweed/294.png,Common Chickweed,1,test,0.99999803,1,Weed
+data/raw/plant_seedlings/Black-grass/64.png,Black-grass,1,test,0.9986493,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/163.png,Scentless Mayweed,1,test,0.9998067,1,Weed
+data/raw/plant_seedlings/ShepherdΓÇÖs Purse/78.png,Shepherd’s Purse,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Common Chickweed/421.png,Common Chickweed,1,test,0.9999942,1,Weed
+data/raw/plant_seedlings/Small-flowered Cranesbill/296.png,Small-flowered Cranesbill,1,test,1.0,1,Weed
+data/raw/plant_seedlings/Scentless Mayweed/350.png,Scentless Mayweed,1,test,0.99999535,1,Weed
+data/raw/plant_seedlings/Common Chickweed/439.png,Common Chickweed,1,test,1.0,1,Weed

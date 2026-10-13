@@ -1,0 +1,63 @@
+{
+  "status": "full_training_completed",
+  "roll_number": 43,
+  "model": "VGG16",
+  "weights_requested": "imagenet",
+  "test_loss": 0.07600180059671402,
+  "test_accuracy": 0.977135956287384,
+  "auc": 0.9918208179182082,
+  "classification_report": {
+    "Crop": {
+      "precision": 0.9703703703703703,
+      "recall": 0.8972602739726028,
+      "f1-score": 0.9323843416370107,
+      "support": 146.0
+    },
+    "Weed": {
+      "precision": 0.978448275862069,
+      "recall": 0.9941605839416059,
+      "f1-score": 0.9862418537291817,
+      "support": 685.0
+    },
+    "accuracy": 0.9771359807460891,
+    "macro avg": {
+      "precision": 0.9744093231162196,
+      "recall": 0.9457104289571043,
+      "f1-score": 0.9593130976830961,
+      "support": 831.0
+    },
+    "weighted avg": {
+      "precision": 0.977029052995898,
+      "recall": 0.9771359807460891,
+      "f1-score": 0.9767795230848292,
+      "support": 831.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      131,
+      15
+    ],
+    [
+      4,
+      681
+    ]
+  ],
+  "dataset_images": 5539,
+  "dataset_species": 12,
+  "evaluated_test_images": 831,
+  "epochs": 5,
+  "batch_size": 4,
+  "head_epochs_requested": 3,
+  "fine_epochs_requested": 2,
+  "split_counts": {
+    "train": 3877,
+    "validation": 831,
+    "test": 831
+  },
+  "seed": 42,
+  "model_saves_and_reloads": true,
+  "head_epochs_completed": 3,
+  "fine_epochs_completed": 2,
+  "best_validation_loss": 0.06740759313106537
+}
